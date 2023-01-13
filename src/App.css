@@ -1,0 +1,76 @@
+#root {
+    max-width: 60vw;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background: #0B2434;
+    font-family: 'Karla';
+    font-style: normal;
+}
+
+.card {
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 1.9rem;
+    letter-spacing: -0.03em;
+    color: #2B283A;
+    margin: 0;
+}
+
+.subTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    letter-spacing: -0.03em;
+    color: #4A4E74;
+    margin-top: 7px;
+}
+
+.dice-container {
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 20px;
+}
+
+.roll-button {
+    font-weight: 700;
+    font-size: 1.2rem;;
+    margin-top: 25px;
+    width: 150px;
+    height: 50px;
+    background: #5035FF;
+    color: #FFF;
+    box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+    border-radius: 4px;
+    border-color: transparent;
+}
+
+.roll-button:hover {
+    cursor: pointer;
+}
+
+.roll-button:focus {
+    outline: none;
+}
+
+.roll-button:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
